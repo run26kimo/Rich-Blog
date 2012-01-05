@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ruby On Rails | Rich Blog]]></title>
+  <link href="http://blog.twms.us/blog/categories/ruby-on-rails/atom.xml" rel="self"/>
+  <link href="http://blog.twms.us/"/>
+  <updated>2012-01-05T17:14:42+08:00</updated>
+  <id>http://blog.twms.us/</id>
+  <author>
+    <name><![CDATA[Rich]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Pirst post]]></title>
+    <link href="http://blog.twms.us/blog/2012/01/05/my-first-post/"/>
+    <updated>2012-01-05T17:04:00+08:00</updated>
+    <id>http://blog.twms.us/blog/2012/01/05/my-first-post</id>
+    <content type="html"><![CDATA[<h2>Ya ~ 我的第一篇  Octopress 文章</h2>
+
+
+<p>post code</p>
+
+<p>```ruby
+def index</p>
+
+<pre><code>post = Post.new
+post.save
+    post.id
+</code></pre>
+
+<p>end
+```</p>
+
+<p>```javascript
+val = jQuery().val;
+alert(val);</p>
+
+<p>```</p>
+
+<p>```html</p>
+
+<h2>Ya ~ 我的第一篇  Octopress 文章</h2>
+
+
+<pre><code>&lt;br /&gt;
+</code></pre>
+
+<p><b>BBB</b>
+```</p>
+]]></content>
+  </entry>
+  
+</feed>

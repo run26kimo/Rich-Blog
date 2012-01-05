@@ -4,7 +4,7 @@
   <title><![CDATA[Rich Blog]]></title>
   <link href="http://blog.twms.us/atom.xml" rel="self"/>
   <link href="http://blog.twms.us/"/>
-  <updated>2012-01-05T16:56:20+08:00</updated>
+  <updated>2012-01-05T17:14:42+08:00</updated>
   <id>http://blog.twms.us/</id>
   <author>
     <name><![CDATA[Rich]]></name>
@@ -12,5 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pirst post]]></title>
+    <link href="http://blog.twms.us/blog/2012/01/05/my-first-post/"/>
+    <updated>2012-01-05T17:04:00+08:00</updated>
+    <id>http://blog.twms.us/blog/2012/01/05/my-first-post</id>
+    <content type="html"><![CDATA[<h2>Ya ~ 我的第一篇  Octopress 文章</h2>
+
+
+<p>post code</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span> <span class="nf">index</span>
+</span><span class='line'>  <span class="n">post</span> <span class="o">=</span> <span class="no">Post</span><span class="o">.</span><span class="n">new</span>
+</span><span class='line'>  <span class="n">post</span><span class="o">.</span><span class="n">save</span>
+</span><span class='line'>      <span class="n">post</span><span class="o">.</span><span class="n">id</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">val</span> <span class="o">=</span> <span class="nx">jQuery</span><span class="p">().</span><span class="nx">val</span><span class="p">;</span>
+</span><span class='line'><span class="nx">alert</span><span class="p">(</span><span class="nx">val</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;h2&gt;</span>Ya ~ 我的第一篇  Octopress 文章<span class="nt">&lt;/h2&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+</span><span class='line'><span class="nt">&lt;b&gt;</span>BBB<span class="nt">&lt;/b&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
 </feed>
